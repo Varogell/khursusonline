@@ -9,7 +9,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
       <!-- site metas -->
-      <title>Yoga</title>
+      <title>Music</title>
       <meta name="keywords" content="">
       <meta name="description" content="">
       <meta name="author" content="">
@@ -32,24 +32,18 @@
      @include('partials.navbar')
       <!-- header section end -->
       <!-- about section start -->
-      <div class="about_section layout_padding">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="about_taital">About Yoga Classes</div>
-               </div>
-            </div>
-         </div>
          <div class="about_section_2">
             <div class="container">
                <div class="row">
                   <div class="col-md-6">
-                     <div class="about_img"><img src="images/about-img.png"></div>
+                     <img src="{{asset('/image/poster.jpeg')}}" class="card-img-top" alt="Poster Music">
                   </div>
                   <div class="col-md-6">
                      <div class="about_taital_main">
-                        <div class="yoga_taital">Best Yoga </div>
-                        <p class="about_text">ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi utipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut</p>
+                        <div class="yoga_taital">Music Class </div>
+                        <p class="about_text">Selamat datang di Kelas Musik, ruang di mana melodi bertemu dengan kreativitas dan impian menjadi kenyataan. Di sini, musik bukan sekadar kumpulan nada—ia adalah bahasa universal yang menghubungkan hati dan pikiran. 
+                           Kelas ini dirancang untuk semua kalangan, dari pemula yang baru menyentuh instrumen hingga musisi berpengalaman yang ingin menyempurnakan keahliannya.
+                        </p>
                         <div class="read_bt"><a href="#">Read More</a></div>
                      </div>
                   </div>
@@ -59,57 +53,95 @@
       </div>
       <!-- about section end -->
       <!-- classes section start -->
-      <div class="classes_section layout_padding">
+      <style>
+         .classes_section .card-img-top {
+           width: 100%; /* Memastikan gambar sesuai dengan lebar kolom */
+           height: 300px; /* Atur tinggi gambar */
+           object-fit: cover; /* Memastikan gambar tidak terdistorsi dan terpotong rapi */
+           border-radius: 8px; /* Opsional: memberi sudut sedikit melengkung */
+         }
+       
+         .classes_section {
+           margin-bottom: 30px;
+         }
+       
+         .astanga_taital {
+           margin-top: 15px;
+           font-weight: bold;
+         }
+       
+         .astanga_text {
+           margin-top: 10px;
+         }
+       
+         .read_btn a {
+           display: inline-block;
+           margin-top: 10px;
+           padding: 10px 20px;
+           background-color: #007bff;
+           color: white;
+           text-decoration: none;
+           border-radius: 5px;
+         }
+       
+         .read_btn a:hover {
+           background-color: #0056b3;
+         }
+       </style>
+       
+       <div class="classes_section layout_padding">
          <div class="container">
-            <div class="classes_border">
+           <div class="classes_border">
+             <div class="row">
+               <div class="col-md-12">
+                 <h1 class="classes_taital">Our Classes</h1>
+                 <p class="classes_text">Kelas Musik adalah tempat di mana para peserta dapat mengeksplorasi dan mengembangkan bakat serta minat mereka dalam dunia musik.</p>
+               </div>
+             </div>
+       
+             <div class="classes_section_2">
                <div class="row">
-                  <div class="col-md-12">
-                     <h1 class="classes_taital">Our Classes</h1>
-                     <p class="classes_text">use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassined </p>
-                  </div>
+                 <div class="col-md-6">
+                   <img src="{{asset('/image/class 1.jpeg')}}" class="card-img-top" alt="Class 1">
+                   <h3 class="astanga_taital">Kelas Instrumen Individu</h3>
+                   <div class="read_btn"><a href="#">Read More</a></div>
+                 </div>
+       
+                 <div class="col-md-6">
+                   <img src="{{asset('/image/class 2.jpeg')}}" class="card-img-top" alt="Class 2">
+                   <h3 class="astanga_taital">Kelas Vokal</h3>
+                   <p class="astanga_text">
+                   <div class="read_btn"><a href="#">Read More</a></div>
+                 </div>
                </div>
-               <div class="classes_section_2">
-                  <div class="row">
-                     <div class="col-md-6">
-                        <div class="classes_img"><img src="images/img-1.png"></div>
-                        <h3 class="astanga_taital">ASTANGA YOGA</h3>
-                        <p class="astanga_text">use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat</p>
-                        <div class="read_btn"><a href="#">Read More</a></div>
-                     </div>
-                     <div class="col-md-6">
-                        <div class="classes_img"><img src="images/img-2.png"></div>
-                        <h3 class="astanga_taital">Hatha YOGA</h3>
-                        <p class="astanga_text">use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat</p>
-                        <div class="read_btn"><a href="#">Read More</a></div>
-                     </div>
-                  </div>
+             </div>
+       
+             <div class="classes_section_2">
+               <div class="row">
+                 <div class="col-md-6">
+                   <img src="{{asset('/image/class 3.jpeg')}}" class="card-img-top" alt="Class 3">
+                   <h3 class="astanga_taital">Kelas Produksi Musik Digital</h3>
+                   <div class="read_btn"><a href="#">Read More</a></div>
+                 </div>
+       
+                 <div class="col-md-6">
+                   <img src="{{asset('/image/class 4.jpeg')}}" class="card-img-top" alt="Class 4">
+                   <h3 class="astanga_taital">Kelas Musik Tradisional dan Etnik</h3>
+                   <div class="read_btn"><a href="#">Read More</a></div>
+                 </div>
                </div>
-               <div class="classes_section_2">
-                  <div class="row">
-                     <div class="col-md-6">
-                        <div class="classes_img"><img src="images/img-3.png"></div>
-                        <h3 class="astanga_taital">IYENGAR YOGA</h3>
-                        <p class="astanga_text">use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat</p>
-                        <div class="read_btn"><a href="#">Read More</a></div>
-                     </div>
-                     <div class="col-md-6">
-                        <div class="classes_img"><img src="images/img-4.png"></div>
-                        <h3 class="astanga_taital">KUNDALINI YOGA</h3>
-                        <p class="astanga_text">use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat</p>
-                        <div class="read_btn"><a href="#">Read More</a></div>
-                     </div>
-                  </div>
-               </div>
-            </div>
+             </div>
+           </div>
          </div>
-      </div>
+       </div>
+       
       <!-- classes section end -->
       <!-- customers section start -->
       <div class="customer_section layout_padding">
          <div class="container">
             <div class="row">
                <div class="col-sm-12">
-                  <h1 class="customer_taital">What is Say People</h1>
+                  <h1 class="customer_taital">REVIEW</h1>
                </div>
             </div>
          </div>
@@ -123,11 +155,11 @@
                               <div class="carousel-item active">
                                  <div class="customer_main">
                                     <div class="customer_left">
-                                       <div class="customer_img"><img src="images/customer-img.png"></div>
-                                    </div>
+                                       <img src="{{asset('/image/akhlis.jpg')}}" class="card-img-top rounded-circle" alt="Class 4">
+                                   </div>                                   
                                     <div class="customer_right">
-                                       <h3 class="customer_name">JONY DEN</h3>
-                                       <p class="customer_text">ipsum dolor sit amet, consectetur adipiscing elit, sed  veniam, quis nostrud exercitation ullamco laboris nisi ut reprehenderit in voluptate velitipsum dolor sit amet, consectetur adipiscing elit, sed  veniam, quis nostrud exercitation ullamco laboris nisi ut reprehenderit in voluptate velit</p>
+                                       <h3 class="customer_name">AKHLIS ABDALLAH</h3>
+                                       <p class="customer_text">Kelas musik menawarkan lebih dari sekadar belajar memainkan instrumen; kelas ini memberikan pengalaman belajar yang holistik dan menyenangkan. Apakah Anda ingin menjadi musisi profesional, atau hanya mencari hobi yang memuaskan, kelas musik adalah pilihan yang tepat. Dengan dedikasi, latihan, dan bimbingan dari instruktur yang tepat, siapa pun bisa menikmati manfaat belajar musik.</p>
                                     </div>
                                  </div>
                               </div>
@@ -180,33 +212,33 @@
                <div class="row">
                   <div class="col-md-4">
                      <div class="blog_box">
-                        <div class="blog_img"><img src="images/img-3.png"></div>
+                        <img src="{{asset('/image/gifari.jpg')}}" class="card-img-top" alt="Class 4">
                         <div class="blog_taital_main">
-                           <p class="yoga_text">BY Yoga 6 COMMENTS</p>
-                           <h3 class="practising_taital">Practising yoga on the sea shore is a good method</h3>
-                           <p class="blog_text">in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage</p>
+                           <p class="yoga_text">BY GIFARI COMMENTS</p>
+                           <h3 class="practising_taital">Menumbuhkan Kreativitas dan Ekspresi Diri</h3>
+                           <p class="blog_text">Salah satu manfaat terbesar dari kelas musik adalah kemampuan untuk menumbuhkan kreativitas. Melalui belajar bermain instrumen atau bernyanyi, Anda diberi ruang untuk mengekspresikan perasaan dan ide-ide pribadi melalui musik.</p>
                            <div class="date_btn"><a href="#">28 Apr</a></div>
                         </div>
                      </div>
                   </div>
                   <div class="col-md-4">
                      <div class="blog_box">
-                        <div class="blog_img"><img src="images/img-2.png"></div>
+                        <img src="{{asset('/image/iqbal.jpg')}}" class="card-img-top" alt="Class 4">
                         <div class="blog_taital_main">
-                           <p class="yoga_text">BY Yoga 6 COMMENTS</p>
-                           <h3 class="practising_taital">Practising yoga on the sea shore is a good method</h3>
-                           <p class="blog_text">in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage</p>
+                           <p class="yoga_text">BY IQBAL COMMENTS</p>
+                           <h3 class="practising_taital">Meningkatkan Keterampilan Kognitif dan Fisik</h3>
+                           <p class="blog_text">Kelas musik tidak hanya melibatkan otak kanan, tetapi juga otak kiri. Berlatih musik dapat membantu meningkatkan kemampuan kognitif, seperti memori, konsentrasi, dan pemecahan masalah.</p>
                            <div class="date_btn"><a href="#">28 Apr</a></div>
                         </div>
                      </div>
                   </div>
                   <div class="col-md-4">
                      <div class="blog_box">
-                        <div class="blog_img"><img src="images/img-4.png"></div>
+                        <img src="{{asset('/image/david.jpg')}}" class="card-img-top" alt="Class 4">
                         <div class="blog_taital_main">
-                           <p class="yoga_text">BY Yoga 6 COMMENTS</p>
-                           <h3 class="practising_taital">Practising yoga on the sea shore is a good method</h3>
-                           <p class="blog_text">in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage</p>
+                           <p class="yoga_text">BY DAVID COMMENTS</p>
+                           <h3 class="practising_taital">Membangun Kepercayaan Diri dan Rasa Percaya Diri</h3>
+                           <p class="blog_text">Kelas musik memberikan ruang bagi setiap siswa untuk berkembang dan mengatasi tantangan. Dalam proses belajar musik, ada banyak kemajuan kecil , seperti mempelajari lagu baru, memainkan bagian yang sulit, atau berhasil menguasai teknik tertentu. </p>
                            <div class="date_btn"><a href="#">28 Apr</a></div>
                         </div>
                      </div>
@@ -223,9 +255,9 @@
                <div class="row">
                   <div class="col-lg-3 col-sm-6">
                      <h2 class="useful_text">About</h2>
-                     <p class="dummy_text">2593 Timbercrest Road, Chisana, Alaska Badalas United State</p>
-                     <div class="location_text"><a href="#">(+91)01234567890</a></div>
-                     <div class="location_text"><a href="#">demo@demo.com</a></div>
+                     <p class="dummy_text">Selamat datang di Kelas Musik, ruang di mana melodi bertemu dengan kreativitas dan impian menjadi kenyataan.</p>
+                     <div class="location_text"><a href="#">(+62)81345674366</a></div>
+                     <div class="location_text"><a href="#">classmusic@gmail.com</a></div>
                   </div>
                   <div class="col-lg-3 col-sm-6">
                      <h2 class="useful_text">Our Products</h2>

@@ -64,9 +64,9 @@
                <div class="row">
                   <div class="col-lg-3 col-sm-6">
                      <h2 class="useful_text">About</h2>
-                     <p class="dummy_text">2593 Timbercrest Road, Chisana, Alaska Badalas United State</p>
-                     <div class="location_text"><a href="#">(+91)01234567890</a></div>
-                     <div class="location_text"><a href="#">demo@demo.com</a></div>
+                     <p class="dummy_text">Selamat datang di Kelas Musik, ruang di mana melodi bertemu dengan kreativitas dan impian menjadi kenyataan.</p>
+                     <div class="location_text"><a href="#">(+62)81345674366</a></div>
+                     <div class="location_text"><a href="#">classmusic@gmail.com</a></div>
                   </div>
                   <div class="col-lg-3 col-sm-6">
                      <h2 class="useful_text">Our Products</h2>

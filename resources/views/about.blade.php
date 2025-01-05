@@ -37,7 +37,7 @@
          <div class="container">
             <div class="row">
                <div class="col-md-12">
-                  <div class="about_taital">About Yoga Classes</div>
+                  <div class="about_taital">Music Classes</div>
                </div>
             </div>
          </div>
@@ -45,12 +45,13 @@
             <div class="container">
                <div class="row">
                   <div class="col-md-6">
-                     <div class="about_img"><img src="images/about-img.png"></div>
+                     <img src="{{asset('/image/poster.jpeg')}}" class="card-img-top" alt="Poster Music">
                   </div>
                   <div class="col-md-6">
                      <div class="about_taital_main">
-                        <div class="yoga_taital">Best Yoga </div>
-                        <p class="about_text">ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi utipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut</p>
+                        <div class="yoga_taital">Best Music </div>
+                        <p class="about_text">Selamat datang di Kelas Musik, ruang di mana melodi bertemu dengan kreativitas dan impian menjadi kenyataan. Di sini, musik bukan sekadar kumpulan nada—ia adalah bahasa universal yang menghubungkan hati dan pikiran.
+                            Kelas ini dirancang untuk semua kalangan, dari pemula yang baru menyentuh instrumen hingga musisi berpengalaman yang ingin menyempurnakan keahliannya.</p>
                         <div class="read_bt"><a href="#">Read More</a></div>
                      </div>
                   </div>
@@ -66,9 +67,9 @@
                <div class="row">
                   <div class="col-lg-3 col-sm-6">
                      <h2 class="useful_text">About</h2>
-                     <p class="dummy_text">2593 Timbercrest Road, Chisana, Alaska Badalas United State</p>
-                     <div class="location_text"><a href="#">(+91)01234567890</a></div>
-                     <div class="location_text"><a href="#">demo@demo.com</a></div>
+                     <p class="dummy_text">Selamat datang di Kelas Musik, ruang di mana melodi bertemu dengan kreativitas dan impian menjadi kenyataan.</p>
+                     <div class="location_text"><a href="#">(+62)81345674366</a></div>
+                     <div class="location_text"><a href="#">classmusic@gmail.com</a></div>
                   </div>
                   <div class="col-lg-3 col-sm-6">
                      <h2 class="useful_text">Our Products</h2>
@@ -113,11 +114,7 @@
       </div>
       <!-- footer section end -->
       <!-- copyright section start -->
-      <div class="copyright_section">
-         <div class="container">
-            <p class="copyright_text">2023 All Rights Reserved. Design by <a href="https://html.design">Free Html Templates</a> Distribution by <a href="https://themewagon.com">ThemeWagon</a></p>
-         </div>
-      </div>
+
       <!-- copyright section end -->
       <!-- Javascript files-->
       <script src="js/jquery.min.js"></script>

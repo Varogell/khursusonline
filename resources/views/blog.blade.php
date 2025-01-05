@@ -43,33 +43,33 @@
                <div class="row">
                   <div class="col-md-4">
                      <div class="blog_box">
-                        <div class="blog_img"><img src="images/img-3.png"></div>
+                        <img src="{{asset('/image/gifari.jpg')}}" class="card-img-top" alt="Class 4">
                         <div class="blog_taital_main">
-                           <p class="yoga_text">BY Yoga 6 COMMENTS</p>
-                           <h3 class="practising_taital">Practising yoga on the sea shore is a good method</h3>
-                           <p class="blog_text">in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage</p>
+                           <p class="yoga_text">BY GIFARI COMMENTS</p>
+                           <h3 class="practising_taital">Menumbuhkan Kreativitas dan Ekspresi Diri</h3>
+                           <p class="blog_text">Salah satu manfaat terbesar dari kelas musik adalah kemampuan untuk menumbuhkan kreativitas. Melalui belajar bermain instrumen atau bernyanyi, Anda diberi ruang untuk mengekspresikan perasaan dan ide-ide pribadi melalui musik.</p>
                            <div class="date_btn"><a href="#">28 Apr</a></div>
                         </div>
                      </div>
                   </div>
                   <div class="col-md-4">
                      <div class="blog_box">
-                        <div class="blog_img"><img src="images/img-2.png"></div>
+                        <img src="{{asset('/image/iqbal.jpg')}}" class="card-img-top" alt="Class 4">
                         <div class="blog_taital_main">
-                           <p class="yoga_text">BY Yoga 6 COMMENTS</p>
-                           <h3 class="practising_taital">Practising yoga on the sea shore is a good method</h3>
-                           <p class="blog_text">in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage</p>
+                           <p class="yoga_text">BY IQBAL COMMENTS</p>
+                           <h3 class="practising_taital">Meningkatkan Keterampilan Kognitif dan Fisik</h3>
+                           <p class="blog_text">Kelas musik tidak hanya melibatkan otak kanan, tetapi juga otak kiri. Berlatih musik dapat membantu meningkatkan kemampuan kognitif, seperti memori, konsentrasi, dan pemecahan masalah.</p>
                            <div class="date_btn"><a href="#">28 Apr</a></div>
                         </div>
                      </div>
                   </div>
                   <div class="col-md-4">
                      <div class="blog_box">
-                        <div class="blog_img"><img src="images/img-4.png"></div>
+                        <img src="{{asset('/image/david.jpg')}}" class="card-img-top" alt="Class 4">
                         <div class="blog_taital_main">
-                           <p class="yoga_text">BY Yoga 6 COMMENTS</p>
-                           <h3 class="practising_taital">Practising yoga on the sea shore is a good method</h3>
-                           <p class="blog_text">in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage</p>
+                           <p class="yoga_text">BY DAVID COMMENTS</p>
+                           <h3 class="practising_taital">Membangun Kepercayaan Diri dan Rasa Percaya Diri</h3>
+                           <p class="blog_text">Kelas musik memberikan ruang bagi setiap siswa untuk berkembang dan mengatasi tantangan. Dalam proses belajar musik, ada banyak kemajuan kecil , seperti mempelajari lagu baru, memainkan bagian yang sulit, atau berhasil menguasai teknik tertentu. </p>
                            <div class="date_btn"><a href="#">28 Apr</a></div>
                         </div>
                      </div>
@@ -86,9 +86,9 @@
                <div class="row">
                   <div class="col-lg-3 col-sm-6">
                      <h2 class="useful_text">About</h2>
-                     <p class="dummy_text">2593 Timbercrest Road, Chisana, Alaska Badalas United State</p>
-                     <div class="location_text"><a href="#">(+91)01234567890</a></div>
-                     <div class="location_text"><a href="#">demo@demo.com</a></div>
+                     <p class="dummy_text">Selamat datang di Kelas Musik, ruang di mana melodi bertemu dengan kreativitas dan impian menjadi kenyataan.</p>
+                     <div class="location_text"><a href="#">(+62)81345674366</a></div>
+                     <div class="location_text"><a href="#">classmusic@gmail.com</a></div>
                   </div>
                   <div class="col-lg-3 col-sm-6">
                      <h2 class="useful_text">Our Products</h2>
